@@ -4,7 +4,7 @@ public class Main {
 
         System.out.println("HomeWork-26 №1 *age* :");
 
-        int age = 11; {System.out.println("age: "+ age);}
+        int age = 25; {System.out.println("age: "+ age);}
         if (age < 0) {
             System.out.println("wrong age");
         }
@@ -18,12 +18,12 @@ public class Main {
 
         { System.out.println("HomeWork-26 №2 *salary* :");}
 
-        int experience = 7;
-        int salary = 1200;
+        int experience = 4;
+        int salary = 3000;
         double summa;
         {
             System.out.println("years at the company: "+ experience);
-            System.out.println("salary: "+ salary);
+            System.out.println("salary: "+ salary+" tygrukiv");
         }
 
         if (experience < 3)
@@ -40,7 +40,7 @@ public class Main {
 
         { System.out.println("HomeWork-26 №3 *summa 1-50* :");
             int start = 1;
-            int finish = 3;
+            int finish = 50;
             int summa_num = (1+finish)*finish/2;
             {
                 System.out.println("summa 1-"+finish+" = "+ summa_num);    }
