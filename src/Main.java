@@ -1,7 +1,7 @@
 public class Main {
-    public static void main(String[] args)
+    public static void main(String[] args) {
+        System.out.println("i did it!!! i guess..");
 
-    {
         System.out.println("HomeWork-26 №1 *age* :");
 
         int age = 11; {System.out.println("age: "+ age);}
@@ -30,11 +30,11 @@ public class Main {
             summa = (salary * 1.1);
         else summa = (salary * 1.2);
         if (summa < 4000) {
-            System.out.println("may hope on - " + summa);
+            System.out.println("may hope on - " + summa + " tygrukiv");
             System.out.println("bonus + 1000 tygrukiv");
         }
         else {
-            System.out.println("may hope on - " + summa);
+            System.out.println("may hope on - " + summa + " tygrukiv");
             System.out.println("bonus + 500 tygrukiv");
         }
 
